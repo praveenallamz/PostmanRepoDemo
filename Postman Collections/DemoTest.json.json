@@ -24,7 +24,7 @@
           }
         }
       ],
-      "_postman_id": "2fcd7e6a-fa35-43ef-89d9-379516ac3b6f",
+      "id": "2fcd7e6a-fa35-43ef-89d9-379516ac3b6f",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -73,7 +73,7 @@
           }
         }
       ],
-      "_postman_id": "b7435538-420e-43c3-a0af-a3028f6ca65e",
+      "id": "b7435538-420e-43c3-a0af-a3028f6ca65e",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -123,7 +123,7 @@
           }
         }
       ],
-      "_postman_id": "cd8d5dd4-04aa-4679-95b2-a1373bbaf51c",
+      "id": "cd8d5dd4-04aa-4679-95b2-a1373bbaf51c",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -170,7 +170,7 @@
           }
         }
       ],
-      "_postman_id": "15d47c51-3a93-42f1-b9e0-741c1c3670bf",
+      "id": "15d47c51-3a93-42f1-b9e0-741c1c3670bf",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -217,7 +217,7 @@
           }
         }
       ],
-      "_postman_id": "b89e8a1e-3cc7-4683-864b-13ac2f1b49f0",
+      "id": "b89e8a1e-3cc7-4683-864b-13ac2f1b49f0",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -268,7 +268,7 @@
           }
         }
       ],
-      "_postman_id": "d9439af0-029f-42f2-ad86-d5e61acdc77e",
+      "id": "d9439af0-029f-42f2-ad86-d5e61acdc77e",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -315,7 +315,7 @@
           }
         }
       ],
-      "_postman_id": "b347dc24-7f3a-45b8-907b-3cd292fa1e4b",
+      "id": "b347dc24-7f3a-45b8-907b-3cd292fa1e4b",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -362,7 +362,7 @@
           }
         }
       ],
-      "_postman_id": "ad8525c1-d685-4ea5-ba60-438f80a9ab69",
+      "id": "ad8525c1-d685-4ea5-ba60-438f80a9ab69",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -408,7 +408,7 @@
           }
         }
       ],
-      "_postman_id": "1117756e-d3ef-4e0c-8b75-a4846930ee85",
+      "id": "1117756e-d3ef-4e0c-8b75-a4846930ee85",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -459,7 +459,7 @@
           }
         }
       ],
-      "_postman_id": "1f8d0fe7-f735-47e3-8b73-e585513941ef",
+      "id": "1f8d0fe7-f735-47e3-8b73-e585513941ef",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -488,12 +488,40 @@
       "response": []
     }
   ],
+  "auth": {
+    "type": "basic",
+    "basic": {
+      "password": "{{password}}",
+      "username": "{{userName}}"
+    }
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "565b449f-a688-4b20-a98f-e1a3fd1f48c5",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "a17253c4-347a-4dba-b276-e812ac6e4f19",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
   "variable": [
     {
-      "id": "3e37fd33-77ed-4656-976d-0ef37a1be9ff",
+      "id": "4bb48183-2c17-4833-b4fa-341bee854520",
       "key": "varISBN",
-      "value": "9781449365035",
-      "type": "string"
+      "value": "9781449365035"
     }
   ]
 }
