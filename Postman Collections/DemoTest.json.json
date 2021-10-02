@@ -499,7 +499,7 @@
     {
       "listen": "prerequest",
       "script": {
-        "id": "565b449f-a688-4b20-a98f-e1a3fd1f48c5",
+        "id": "13fb1b0a-3835-4c50-9b84-9c8d4e8f39df",
         "type": "text/javascript",
         "exec": [
           ""
@@ -509,7 +509,7 @@
     {
       "listen": "test",
       "script": {
-        "id": "a17253c4-347a-4dba-b276-e812ac6e4f19",
+        "id": "be45c743-5e1d-47a3-adb9-690ccda57c32",
         "type": "text/javascript",
         "exec": [
           ""
@@ -519,7 +519,7 @@
   ],
   "variable": [
     {
-      "id": "4bb48183-2c17-4833-b4fa-341bee854520",
+      "id": "0ac3b8b0-2f98-4452-a187-90cbd9a27dcb",
       "key": "varISBN",
       "value": "9781449365035"
     }
